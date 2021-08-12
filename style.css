@@ -1,0 +1,110 @@
+body {
+    
+
+    background-color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    outline-width: 0pc;
+    border-radius: 1em;
+    display: 20%;
+    width: 90%;
+   
+   
+    
+    
+}
+
+.head {
+
+    font-size: x-large;
+}
+
+.pizza {
+
+    border: 5px solid purple;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+
+
+.cont {
+    background-color: royalblue;
+    border: 1px solid purple;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    
+    
+}
+
+.large_pizza {
+    background-color: #42c3b4;
+    width: 600px;
+    
+}
+
+.centre {
+    text-align: center;
+}
+
+
+.medium_pizza {
+
+    background-color: #2a9d8f;
+    width: 600px;
+
+    
+
+}
+
+.small_pizza {
+    background-color: #457b9d;
+    width: 600px;
+}
+
+.Contact details{
+    background-color: #003049;
+}
+
+
+
+
+@media (min-width :760px) {
+    
+
+    body {
+
+        background-color: #ffa500;
+        
+        
+        
+    }
+
+    .pizzas {
+
+        display: flex;
+        
+        
+    }
+
+    screen {
+
+        display: 50%;
+    }
+
+    
+    
+}
+
+
+.centre {
+
+    text-align: center;
+}
+
+.screen {
+
+    display: 10%;
+}
