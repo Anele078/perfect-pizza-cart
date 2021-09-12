@@ -4,72 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Perfect Pizza</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="head  centre">
-        <h1>Perfect Pizza </h1>
-    </div>
-    
-    <div class="pizzas screen">
 
 
-        <div class="pizza small_pizza">
-            <h2>Small Pizza</h2>
-           
-            <img src="https://image.shutterstock.com/image-vector/pizzaflat-coloring-styleillustration-children-600w-761800429.jpg"
-            width="200">
-            <h3> R40.00</h3>
-
-            <div>
-                small pizza with 3 toppings 1 meat topping. 
-                3 or less other toppings
-            </div>
+    <div class="container">
+        <div class="head centre">
+          <h1>Perfect Pizza</h1>
         </div>
-
-        <div class="pizza medium_pizza">
-            <h2>Medium Pizza</h2>
-            <img src="https://image.shutterstock.com/image-vector/pizzaflat-coloring-styleillustration-children-600w-761800429.jpg"
-                width="200">
-            
-            <h3> R89.00</h3>
-
-            <div>
-                medium margeritha pizza with 3 toppings max. 
-                2 or less meat toppings. 
-                3 or less other toppings
+        <div class="cart-container">
+          <div class="cart">
+            <div class="cart-heading">Shoping cart</div>
+            <div class="show-cart-items">
+              <!--cart items go here-->
             </div>
-        </div>
-
-
-        <div class="pizza large_pizza">
-            <h2>Large Pizza</h2>
-            <img src="https://image.shutterstock.com/image-vector/pizzaflat-coloring-styleillustration-children-600w-761800429.jpg"
-                width="200">
-            
-            <h3>R150</h3>
-            <div>
-                large margeritha pizza with 3 toppings max. 
-                3 meat toppings max. 
-                3 or less other toppings
+            <div class="total-items">
+              <!--total goes here-->
             </div>
-        </div>
-
-
-
-    </div>
-
-
-    <div class="centre cont">
-        <div>
-            
-            <div>
-                contact us at: 012 444 1111  info@perfectpizza.co.za
+            <div id="checkout">
+              <div id="successMessage">Enjoy Your Pizzas</div>
+              <div id="errorMessage">Sorry - That is not enough Money</div>
+              <form id="submitForm">
+                <div class="total-items">
+                  <div class="total-label" style="margin-top: 5px">
+                    Total amaount:
+                  </div>
+                  <div class="total-price">
+                    <input
+                      type="text"
+                      id="inputTotal"
+                      class="total-amount-input"
+                    />
+                  </div>
+                </div>
+  
+                <div class="total-items">
+                  <button class="btn" type="submit" style="margin-left: auto">
+                    Pay
+                  </button>
+                </div>
+              </form>
             </div>
-            
+          </div>
         </div>
-    </div>
+  
+        <div class="pizzas screen">
+          <!--Show pizza list here-->
+        </div>
+  
+        <div class="centre cont">
+          <div>
+            <div>contact us at: 012 444 1111 info@perfectpizza.co.za</div>
+          </div>
+        </div>
+      </div>
+      <script src="./pizza-data.js"></script>
+      <script src="./app.js"></script>
 
 
 
